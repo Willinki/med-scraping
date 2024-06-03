@@ -1,0 +1,192 @@
+{
+    "mypersonaltrainer": {
+        "source": "../sources/www.my-personaltrainer.it/",
+        "title_search_list": [
+            [
+                {
+                    "tag": "header",
+                    "attrs": {
+                        "class": "sal-heading"
+                    }
+                },
+                {
+                    "tag": "h1",
+                    "attrs": {
+                        "class": "sal-heading-title"
+                    }
+                }
+            ],
+            [
+                {
+                    "tag": "title",
+                    "attrs": {}
+                }
+            ],
+            [
+                {
+                    "tag": "header",
+                    "attrs": {
+                        "class": "sal-heading"
+                    }
+                },
+                {
+                    "tag": "h1",
+                    "attrs": {
+                        "class": "res-lancio-title"
+                    }
+                }
+            ],
+            [
+                {
+                    "tag": "header",
+                    "attrs": {
+                        "class": "res-lancio-fullwidth"
+                    }
+                },
+                {
+                    "tag": "h1",
+                    "attrs": {
+                        "class": "res-lancio-title"
+                    }
+                }
+            ]
+        ],
+        "subtitle_search_list": [
+            [
+                {
+                    "tag": "header",
+                    "attrs": {
+                        "class": "sal-heading"
+                    }
+                },
+                {
+                    "tag": "ul",
+                    "attrs": {
+                        "class": "sal-heading-topics"
+                    }
+                }
+            ],
+            [
+                {
+                    "tag": "header",
+                    "attrs": {
+                        "class": "sal-heading"
+                    }
+                },
+                {
+                    "tag": "span",
+                    "attrs": {
+                        "class": "res-lancio-topics"
+                    }
+                }
+            ],
+            [
+                {
+                    "tag": "header",
+                    "attrs": {
+                        "class": "res-lancio-fullwidth"
+                    }
+                },
+                {
+                    "tag": "span",
+                    "attrs": {
+                        "class": "res-lancio-topics"
+                    }
+                }
+            ]
+        ],
+        "content_search_list": [
+            {
+                "tag": "div",
+                "attrs": {
+                    "class": "sal-widget-section"
+                }
+            },
+            {
+                "tag": "div",
+                "attrs": {
+                    "class": "sal-inner"
+                }
+            }
+        ]
+    },
+    "oksalute": {
+        "source": "../sources/www.ok-salute.it/",
+        "title_search_list": [
+            [
+                {
+                    "tag": "div",
+                    "attrs": {
+                        "class": "entry-header"
+                    }
+                },
+                {
+                    "tag": "h1",
+                    "attrs": {}
+                }
+            ],
+            [
+                {
+                    "tag": "title",
+                    "attrs": {}
+                }
+            ]
+        ],
+        "subtitle_search_list": [
+            [
+                {
+                    "tag": "h2",
+                    "attrs": {}
+                }
+            ]
+        ],
+        "content_search_list": [
+            {
+                "tag": "div",
+                "attrs": {
+                    "class": "entry-content"
+                }
+            },
+            {
+                "tag": "content:encoded",
+                "attrs": {}
+            }
+        ]
+    },
+    "template": {
+        "source": "",
+        "title_search_list": [],
+        "subtitle_search_list": [],
+        "content_search_list": []
+    },
+    "medicitalia": {
+        "source": "../sources/www.medicitalia.it",
+        "title_search_list": [
+            [
+                {
+                    "tag": "header",
+                    "attrs": {"class":"cont_tit"}
+                },
+                {
+                    "tag": "h1",
+                    "attrs": {}
+                }
+            ]
+        ],
+        "subtitle_search_list": [],
+        "content_search_list": [
+            {
+                "tag": "div",
+                "attrs": {
+                    "class": "cons"
+                }
+            },
+            {
+                "tag": "div",
+                "attrs": {
+                    "class": "testo"
+                }
+            }
+        ]
+    }
+}
