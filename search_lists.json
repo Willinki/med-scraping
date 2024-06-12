@@ -1,192 +1,472 @@
 {
-    "mypersonaltrainer": {
-        "source": "../sources/www.my-personaltrainer.it/",
-        "title_search_list": [
-            [
-                {
-                    "tag": "header",
-                    "attrs": {
-                        "class": "sal-heading"
-                    }
-                },
-                {
-                    "tag": "h1",
-                    "attrs": {
-                        "class": "sal-heading-title"
-                    }
-                }
-            ],
-            [
-                {
-                    "tag": "title",
-                    "attrs": {}
-                }
-            ],
-            [
-                {
-                    "tag": "header",
-                    "attrs": {
-                        "class": "sal-heading"
-                    }
-                },
-                {
-                    "tag": "h1",
-                    "attrs": {
-                        "class": "res-lancio-title"
-                    }
-                }
-            ],
-            [
-                {
-                    "tag": "header",
-                    "attrs": {
-                        "class": "res-lancio-fullwidth"
-                    }
-                },
-                {
-                    "tag": "h1",
-                    "attrs": {
-                        "class": "res-lancio-title"
-                    }
-                }
-            ]
-        ],
-        "subtitle_search_list": [
-            [
-                {
-                    "tag": "header",
-                    "attrs": {
-                        "class": "sal-heading"
-                    }
-                },
-                {
-                    "tag": "ul",
-                    "attrs": {
-                        "class": "sal-heading-topics"
-                    }
-                }
-            ],
-            [
-                {
-                    "tag": "header",
-                    "attrs": {
-                        "class": "sal-heading"
-                    }
-                },
-                {
-                    "tag": "span",
-                    "attrs": {
-                        "class": "res-lancio-topics"
-                    }
-                }
-            ],
-            [
-                {
-                    "tag": "header",
-                    "attrs": {
-                        "class": "res-lancio-fullwidth"
-                    }
-                },
-                {
-                    "tag": "span",
-                    "attrs": {
-                        "class": "res-lancio-topics"
-                    }
-                }
-            ]
-        ],
-        "content_search_list": [
+  "mypersonaltrainer": {
+    "source": "../sources/www.my-personaltrainer.it/",
+    "title_search_list": [
+      [
+        {
+          "tag": "header",
+          "attrs": {
+            "class": "sal-heading"
+          }
+        },
+        {
+          "tag": "h1",
+          "attrs": {
+            "class": "sal-heading-title"
+          }
+        }
+      ],
+      [
+        {
+          "tag": "title",
+          "attrs": {}
+        }
+      ],
+      [
+        {
+          "tag": "header",
+          "attrs": {
+            "class": "sal-heading"
+          }
+        },
+        {
+          "tag": "h1",
+          "attrs": {
+            "class": "res-lancio-title"
+          }
+        }
+      ],
+      [
+        {
+          "tag": "header",
+          "attrs": {
+            "class": "res-lancio-fullwidth"
+          }
+        },
+        {
+          "tag": "h1",
+          "attrs": {
+            "class": "res-lancio-title"
+          }
+        }
+      ]
+    ],
+    "subtitle_search_list": [
+      [
+        {
+          "tag": "header",
+          "attrs": {
+            "class": "sal-heading"
+          }
+        },
+        {
+          "tag": "ul",
+          "attrs": {
+            "class": "sal-heading-topics"
+          }
+        }
+      ],
+      [
+        {
+          "tag": "header",
+          "attrs": {
+            "class": "sal-heading"
+          }
+        },
+        {
+          "tag": "span",
+          "attrs": {
+            "class": "res-lancio-topics"
+          }
+        }
+      ],
+      [
+        {
+          "tag": "header",
+          "attrs": {
+            "class": "res-lancio-fullwidth"
+          }
+        },
+        {
+          "tag": "span",
+          "attrs": {
+            "class": "res-lancio-topics"
+          }
+        }
+      ]
+    ],
+    "content_search_list": [
+      {
+        "tag": "div",
+        "attrs": {
+          "class": "sal-widget-section"
+        }
+      },
+      {
+        "tag": "div",
+        "attrs": {
+          "class": "sal-inner"
+        }
+      }
+    ]
+  },
+  "oksalute": {
+    "source": "../sources/www.ok-salute.it/",
+    "title_search_list": [
+      [
+        {
+          "tag": "div",
+          "attrs": {
+            "class": "entry-header"
+          }
+        },
+        {
+          "tag": "h1",
+          "attrs": {}
+        }
+      ],
+      [
+        {
+          "tag": "title",
+          "attrs": {}
+        }
+      ]
+    ],
+    "subtitle_search_list": [
+      [
+        {
+          "tag": "h2",
+          "attrs": {}
+        }
+      ]
+    ],
+    "content_search_list": [
+      {
+        "tag": "div",
+        "attrs": {
+          "class": "entry-content"
+        }
+      },
+      {
+        "tag": "content:encoded",
+        "attrs": {}
+      }
+    ]
+  },
+  "medicitalia": {
+    "source": "../sources/www.medicitalia.it",
+    "title_search_list": [
+      [
+        {
+          "tag": "header",
+          "attrs": {
+            "class": "cont_tit"
+          }
+        },
+        {
+          "tag": "h1",
+          "attrs": {}
+        }
+      ]
+    ],
+    "subtitle_search_list": [],
+    "content_search_list": [
+      {
+        "tag": "div",
+        "attrs": {
+          "class": "cons"
+        }
+      },
+      {
+        "tag": "div",
+        "attrs": {
+          "class": "testo"
+        }
+      }
+    ]
+  },
+  "airc": {
+    "source": "../sources/www.airc.it",
+    "title_search_list": [
+      [
+        {
+          "tag": "div",
+          "attrs": {
+            "class": "heroSimple__container"
+          }
+        },
+        {
+          "tag": "h1",
+          "attrs": {}
+        }
+      ],
+      [
+        {
+          "tag": "div",
+          "attrs": {
+            "class": "heroBook__container"
+          }
+        },
+        {
+          "tag": "h1",
+          "attrs": {}
+        }
+      ]
+    ],
+    "subtitle_search_list": [
+      [
+        {
+          "tag": "section",
+          "attrs": {
+            "class": "section"
+          }
+        },
+        {
+          "tag": "div",
+          "attrs": {
+            "class": "evidence"
+          }
+        }
+      ],
+      [
+        {
+          "tag": "div",
+          "attrs": {
+            "class": "heroBook__container"
+          }
+        },
+        {
+          "tag": "h4",
+          "attrs": {}
+        }
+      ]
+    ],
+    "content_search_list": [
+      {
+        "tag": "section",
+        "attrs": {
+          "class": "section--content"
+        }
+      }
+    ]
+  },
+  "equivalente": {
+    "source": "../sources/www.equivalente.it",
+    "title_search_list": [
+      [
+        {
+          "tag": "div",
+          "attrs": {
+            "class": "page-header"
+          }
+        },
+        {
+          "tag": "h1",
+          "attrs": {
+          }
+        }
+      ]
+    ],
+    "subtitle_search_list": [
+      [
+        {
+          "tag": "ul",
+          "attrs": {
+            "class": "tags"
+          }
+        }
+      ]
+    ],
+    "content_search_list": [
+      {
+        "tag": "div",
+        "attrs": {
+          "class": "com-content-article__body"
+        }
+      },
+      {
+        "tag": "div",
+        "attrs": {
+          "class": "item-content"
+        }
+      }
+    ]
+  },
+  "humanitas": {
+    "source": "../sources/www.humanitas.it",
+    "title_search_list": [
+      [
+        {
+          "tag": "div",
+          "attrs": {
+            "class": "wrapper narrow"
+          }
+        },
+        {
+          "tag": "div",
+          "attrs": {
+            "class": "inner"
+          }
+        },
+        {
+          "tag": "h1",
+          "attrs": {
+          }
+        }
+      ]
+    ],
+    "subtitle_search_list": [],
+    "content_search_list": [
+      {
+        "tag": "div",
+        "attrs": {
+          "class": "entry-content"
+        }
+      }
+    ]
+  },
+  "maugeri": {
+    "source": "../sources/www.icsmaugeri.it",
+    "title_search_list": [
+      [
+        {
+          "tag": "h1",
+          "attrs": {
+            "class": "title"
+          }
+        }
+      ]
+    ],
+    "subtitle_search_list": [],
+    "content_search_list": [
+      {
+        "tag": "div",
+        "attrs": {
+          "class": "generic-box-details"
+        }
+      }
+    ]
+  },
+  "ieo": {
+    "source": "../sources/www.ieo.it",
+    "title_search_list": [
+      [
+        {
+          "tag": "div",
+          "attrs": {
+            "class": "upper_tabs_text"
+          }
+        },
+        {
+          "tag": "h1",
+          "attrs": {}
+        }
+      ],
+      [
+        {
+          "tag": "h1",
+          "attrs": {
+            "class": "pc1"
+          }
+        }
+      ]
+    ],
+    "subtitle_search_list": [
+      [
+        {
+          "tag": "div",
+          "attrs": {
+            "class": "upper_tabs_text"
+          }
+        },
+        {
+          "tag": "p",
+          "attrs": {}
+        }
+      ]
+    ],
+    "content_search_list": [
+      {
+        "tag": "div",
+        "attrs": {
+          "class": "container_txt_position"
+        }
+      },
+      {
+        "tag": "div",
+        "attrs": {
+          "class": "css-panes"
+        }
+      },
+      {
+        "tag": "div",
+        "attrs": {
+          "class": "content_text"
+        }
+      }
+    ]
+  },
+  "quotidianosanita": {
+    "source": "../sources/www.quotidianosanita.it",
+    "title_search_list": [
+      [
+        {
+          "tag": "div",
+          "attrs": {
+            "class": "container_sin_articoli"
+          }
+        },
+        {
+          "tag": "h1",
+          "attrs": {
+          }
+        }
+      ]
+    ],
+    "subtitle_search_list": [
+      [
+        {
+          "tag": "div",
+          "attrs": {
+            "class": "container_sin_articoli"
+          }
+        },
+        {
+          "tag": "h2",
+          "attrs": {
+          }
+        }
+      ]
+    ],
+    "content_search_list": [
+      {
+        "tag": "div",
+        "attrs": {
+          "class": "container_sin_articoli"
+        }
+      }
+    ],
+    "content_ignore_list": [
+      {
+        "tag": "div",
+        "attrs": {
+          "class": "container_notizie_mini"
+        }
+      },
+      {
+        "tag": "h1",
+        "attrs": {}
+      },
             {
-                "tag": "div",
-                "attrs": {
-                    "class": "sal-widget-section"
-                }
-            },
-            {
-                "tag": "div",
-                "attrs": {
-                    "class": "sal-inner"
-                }
-            }
-        ]
-    },
-    "oksalute": {
-        "source": "../sources/www.ok-salute.it/",
-        "title_search_list": [
-            [
-                {
-                    "tag": "div",
-                    "attrs": {
-                        "class": "entry-header"
-                    }
-                },
-                {
-                    "tag": "h1",
-                    "attrs": {}
-                }
-            ],
-            [
-                {
-                    "tag": "title",
-                    "attrs": {}
-                }
-            ]
-        ],
-        "subtitle_search_list": [
-            [
-                {
-                    "tag": "h2",
-                    "attrs": {}
-                }
-            ]
-        ],
-        "content_search_list": [
-            {
-                "tag": "div",
-                "attrs": {
-                    "class": "entry-content"
-                }
-            },
-            {
-                "tag": "content:encoded",
-                "attrs": {}
-            }
-        ]
-    },
-    "template": {
-        "source": "",
-        "title_search_list": [],
-        "subtitle_search_list": [],
-        "content_search_list": []
-    },
-    "medicitalia": {
-        "source": "../sources/www.medicitalia.it",
-        "title_search_list": [
-            [
-                {
-                    "tag": "header",
-                    "attrs": {"class":"cont_tit"}
-                },
-                {
-                    "tag": "h1",
-                    "attrs": {}
-                }
-            ]
-        ],
-        "subtitle_search_list": [],
-        "content_search_list": [
-            {
-                "tag": "div",
-                "attrs": {
-                    "class": "cons"
-                }
-            },
-            {
-                "tag": "div",
-                "attrs": {
-                    "class": "testo"
-                }
-            }
-        ]
-    }
+        "tag": "h2",
+        "attrs": {}
+      }
+    ]
+  },
+  "template": {
+    "source": "../sources/www.*****.it",
+    "title_search_list": [],
+    "subtitle_search_list": [],
+    "content_search_list": []
+  }
 }

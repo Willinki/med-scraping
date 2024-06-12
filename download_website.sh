@@ -39,4 +39,4 @@ if [ -z "$url" ]; then
     usage
 fi
 
-wget -r -nc --no-parent --reject '*.js,*.css,*.ico,*.txt,*.gif,*.jpg,*.jpeg,*.png,*.mp3,*.pdf,*.tgz,*.flv,*.avi,*.mpeg,*.iso' --follow-tags=a --wait=$wait_time --random-wait --directory-prefix=$output_dir $url 
+wget -r --continue --no-parent --reject '*.js,*.css,*.ico,*.txt,*.gif,*.jpg,*.jpeg,*.png,*.mp3,*.pdf,*.tgz,*.flv,*.avi,*.mpeg,*.iso' --follow-tags=a --wait=$wait_time --random-wait --directory-prefix=$output_dir $url
