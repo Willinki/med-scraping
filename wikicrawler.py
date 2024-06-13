@@ -9,7 +9,7 @@ def get_categorymembers(categorymembers, datacontainer, level=0, max_level=1, in
     pbar = tqdm(categorymembers.values(), position=0, leave=True)
     index = 0
     for c in pbar:
-        if not inside_loop and index < 7:
+        if not inside_loop and index != 2:
             index += 1
             continue
         #CHECK IF IT HAS A URL
@@ -43,7 +43,7 @@ def get_categorymembers(categorymembers, datacontainer, level=0, max_level=1, in
     if not inside_loop:
         return datacontainer
     else:
-        with open("../wiki_temp_3.json", 'w', encoding='utf8') as tempfile:
+        with open("../wiki_temp_6.json", 'w', encoding='utf8') as tempfile:
             temp_json = {"version": "0.1", "data": datacontainer, "already_visited": visited}
             json.dump(temp_json, tempfile, indent=4, ensure_ascii=False)
 
@@ -63,10 +63,9 @@ if __name__ == "__main__":
     )
     cat = wiki_wiki.page("Category:Scienze della salute")
     data = []
-    j = load_json(r"../wiki_temp_2.json")
-    already_visited = list(set(d['file_name'] for d in j["data"]))
+    j = load_json(r"../wiki_temp_5.json")
     output_json = {"version": "0.1",
                    "data": get_categorymembers(cat.categorymembers, datacontainer=j["data"], level=0, max_level=8,
-                                               visited=already_visited)}
+                                               visited=j["already_visited"])}
     with open("../wiki.json", 'w', encoding='utf8') as outfile:
         json.dump(output_json, outfile, indent=4, ensure_ascii=False)
