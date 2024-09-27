@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Default values
-output_dir="../sources/"
+output_dir="./sources/"
 wait_time=1
 
 # Function to display usage

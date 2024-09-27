@@ -1,6 +1,6 @@
 {
   "mypersonaltrainer": {
-    "source": "../sources/www.my-personaltrainer.it/",
+    "source": "./sources/www.my-personaltrainer.it/",
     "title_search_list": [
       [
         {
@@ -111,7 +111,7 @@
     ]
   },
   "oksalute": {
-    "source": "../sources/www.ok-salute.it/",
+    "source": "./sources/www.ok-salute.it/",
     "title_search_list": [
       [
         {
@@ -154,7 +154,7 @@
     ]
   },
   "medicitalia": {
-    "source": "../sources/www.medicitalia.it",
+    "source": "./sources/www.medicitalia.it",
     "title_search_list": [
       [
         {
@@ -186,7 +186,7 @@
     ]
   },
   "airc": {
-    "source": "../sources/www.airc.it",
+    "source": "./sources/www.airc.it",
     "title_search_list": [
       [
         {
@@ -251,7 +251,7 @@
     ]
   },
   "equivalente": {
-    "source": "../sources/www.equivalente.it",
+    "source": "./sources/www.equivalente.it",
     "title_search_list": [
       [
         {
@@ -293,7 +293,7 @@
     ]
   },
   "humanitas": {
-    "source": "../sources/www.humanitas.it",
+    "source": "./sources/www.humanitas.it",
     "title_search_list": [
       [
         {
@@ -326,7 +326,7 @@
     ]
   },
   "maugeri": {
-    "source": "../sources/www.icsmaugeri.it",
+    "source": "./sources/www.icsmaugeri.it",
     "title_search_list": [
       [
         {
@@ -348,7 +348,7 @@
     ]
   },
   "ieo": {
-    "source": "../sources/www.ieo.it",
+    "source": "./sources/www.ieo.it",
     "title_search_list": [
       [
         {
@@ -407,7 +407,7 @@
     ]
   },
   "quotidianosanita": {
-    "source": "../sources/www.quotidianosanita.it",
+    "source": "./sources/www.quotidianosanita.it",
     "title_search_list": [
       [
         {
@@ -464,7 +464,7 @@
     ]
   },
   "template": {
-    "source": "../sources/www.*****.it",
+    "source": "./sources/www.*****.it",
     "title_search_list": [],
     "subtitle_search_list": [],
     "content_search_list": []
